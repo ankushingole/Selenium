@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserName" value="ie"/>
+  <test name="ChromeTest">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.multipleBrowsers.MultipleBrowsersDemo01"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="FFTest">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.multipleBrowsers.MultipleBrowsersDemo01"/>
+    </classes>
+  </test> <!-- FFTest -->
+  <test name="IETest">
+    <parameter name="browserName" value="ie"/>
+    <classes>
+      <class name="com.multipleBrowsers.MultipleBrowsersDemo01"/>
+    </classes>
+  </test> <!-- IETest -->
+</suite> <!-- Failed suite [Suite] -->
