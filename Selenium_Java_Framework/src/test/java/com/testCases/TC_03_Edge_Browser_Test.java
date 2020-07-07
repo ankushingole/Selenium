@@ -9,12 +9,9 @@ public class TC_03_Edge_Browser_Test {
 
 	@Test
 	public void googlePage() {
-
 		System.setProperty("webdriver.edge.driver", "C:\\Windows\\System32\\MicrosoftWebDriver.exe");
-
 		driver = new EdgeDriver();
 		driver.get("https://www.google.com/");
-
 		driver.quit();
 	}
 }

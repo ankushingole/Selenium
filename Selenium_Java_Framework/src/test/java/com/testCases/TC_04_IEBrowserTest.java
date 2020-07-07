@@ -2,11 +2,13 @@ package com.testCases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.Test;
 
 public class TC_04_IEBrowserTest {
-	static WebDriver driver = null;
+ WebDriver driver = null;
 
-	public static void main(String[] args) {
+	@Test
+	public void ieBrowserTest() {
 
 		String path = System.getProperty("user.dir");
 		System.setProperty("webdriver.ie.driver", path + "/drivers/iedriver/IEDriverServer.exe");

@@ -10,8 +10,8 @@ public class TC_08_GoogleTitleTest {
 
 	@Test
 	public void titleTest() {
-		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path + "/drivers/chromedriver/chromedriver.exe");
+//		String path = System.getProperty("user.dir");
+//		System.setProperty("webdriver.chrome.driver", path + "/drivers/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver();
 
 		driver.get("https://www.google.com/");

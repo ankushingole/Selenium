@@ -22,8 +22,8 @@ public class TC_09_Redbus_Login_Test {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		System.setProperty("webdriver.chrome.silentOutput", "true");
-		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path + "/drivers/chromedriver/chromedriver.exe");
+//		String path = System.getProperty("user.dir");
+//		System.setProperty("webdriver.chrome.driver", path + "/drivers/chromedriver/chromedriver.exe");
 		driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.manage().window().maximize();

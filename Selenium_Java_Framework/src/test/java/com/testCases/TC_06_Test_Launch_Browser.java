@@ -9,9 +9,9 @@ public class TC_06_Test_Launch_Browser {
 
 	public static void main(String[] args) {
 		String browserName = "Chrome";
-		
+
 		WebDriver driver = null;
-		
+
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			driver = new ChromeDriver();
 		}
@@ -25,6 +25,7 @@ public class TC_06_Test_Launch_Browser {
 		}
 
 		driver.get("https://www.twitter.com/");
-
+		driver.quit();
 	}
+
 }

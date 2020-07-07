@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14210" started-at="2020-06-19T11:59:49Z" finished-at="2020-06-19T12:00:03Z">
+  <suite name="Default suite" duration-ms="9749" started-at="2020-06-30T14:25:50Z" finished-at="2020-06-30T14:25:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14210" started-at="2020-06-19T11:59:49Z" finished-at="2020-06-19T12:00:03Z">
-      <class name="com.webelementmethods.Webelement_Methods">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.webelementmethods.Webelement_Methods@5a39699c]" name="launchBrowser" is-config="true" duration-ms="13172" started-at="2020-06-19T17:29:49Z" finished-at="2020-06-19T17:30:02Z">
+    <test name="Default test" duration-ms="9749" started-at="2020-06-30T14:25:50Z" finished-at="2020-06-30T14:25:59Z">
+      <class name="com.testCases.TC_08_GoogleTitleTest">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.testCases.TC_08_GoogleTitleTest@6b71769e]" name="titleTest" duration-ms="9733" started-at="2020-06-30T19:55:50Z" finished-at="2020-06-30T19:55:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="demoWebelementMethods()[pri:0, instance:com.webelementmethods.Webelement_Methods@5a39699c]" name="demoWebelementMethods" duration-ms="1010" started-at="2020-06-19T17:30:02Z" finished-at="2020-06-19T17:30:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoWebelementMethods -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.webelementmethods.Webelement_Methods@5a39699c]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-06-19T17:30:03Z" finished-at="2020-06-19T17:30:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.webelementmethods.Webelement_Methods -->
+        </test-method> <!-- titleTest -->
+      </class> <!-- com.testCases.TC_08_GoogleTitleTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
