@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9749" started-at="2020-06-30T14:25:50Z" finished-at="2020-06-30T14:25:59Z">
+  <suite name="Default suite" duration-ms="22138" started-at="2020-08-07T07:57:59Z" finished-at="2020-08-07T07:58:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9749" started-at="2020-06-30T14:25:50Z" finished-at="2020-06-30T14:25:59Z">
-      <class name="com.testCases.TC_08_GoogleTitleTest">
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.testCases.TC_08_GoogleTitleTest@6b71769e]" name="titleTest" duration-ms="9733" started-at="2020-06-30T19:55:50Z" finished-at="2020-06-30T19:55:59Z">
+    <test name="Default test" duration-ms="22138" started-at="2020-08-07T07:57:59Z" finished-at="2020-08-07T07:58:21Z">
+      <class name="com.readExcel.ParameterizeTest">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.readExcel.ParameterizeTest@57fffcd7]" name="initBrowser" is-config="true" duration-ms="16671" started-at="2020-08-07T13:27:59Z" finished-at="2020-08-07T13:28:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-      </class> <!-- com.testCases.TC_08_GoogleTitleTest -->
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="readData()[pri:0, instance:com.readExcel.ParameterizeTest@57fffcd7]" name="readData" duration-ms="4569" started-at="2020-08-07T13:28:16Z" finished-at="2020-08-07T13:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.readExcel.ParameterizeTest@57fffcd7]" name="closeBrowser" is-config="true" duration-ms="862" started-at="2020-08-07T13:28:20Z" finished-at="2020-08-07T13:28:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.readExcel.ParameterizeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
