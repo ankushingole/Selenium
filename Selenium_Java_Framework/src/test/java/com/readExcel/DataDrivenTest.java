@@ -16,7 +16,7 @@ public class DataDrivenTest {
 	public void getExcelData() {
 
 		// Excel code
-		Xls_Reader reader = new Xls_Reader(".\\src\\main\\java\\com\\testdata\\FacebookRegDetails.xlsx");
+		Xls_Reader reader = new Xls_Reader("./excelfiles/TestData.xlsx");
 		String firstName = reader.getCellData("RegData", " firstName", 2);
 		System.out.println(firstName);
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Test Cases">
+	<test name="My test cases">
+		<classes>
+			<class name="com.testng.Login" />
+			<class name="com.testng.Assignleave" />
+			<class name="com.testng.Logout" />
+		</classes>
+	</test>
+</suite>

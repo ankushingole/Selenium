@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Login Tests">
+	<test name="Login TestCase">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.facebook.com/" />
+		<parameter name="username" value="anku4148" />
+		<parameter name="password" value="pass" />
+
+		<classes>
+			<class name="com.testngparameters.ParametersTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
